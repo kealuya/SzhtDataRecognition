@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>浩天智能识别平台</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  </head>
+  <body>
+    <p>欢迎来到浩天智能识别平台</p>
+    <pre>
+      接口：getOcrGeneralocr/ocr_generalocr
+      参数：图片的base64码
+    </pre>
+    <form method="POST" enctype="multipart/form-data" action="/getOcrGeneralocr/ocr_generalocr_from_page">
+      <input name='upfile' type="file"  accept="image/*" /><br><br>
+      <input type="submit" value="提交"/>
+    </form>
+  </body>
+</html>
